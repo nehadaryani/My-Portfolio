@@ -1,0 +1,383 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">NEHA DARYANI</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+                    <li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Achievements
+						</a> 
+					</li> 
+					
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Projects 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading" style=" font-size:larger">Neha Daryani</h1> 
+				<h4 class="sub-heading" style="color:black ;font-size:medium"> 
+					Frontend Developer Intern
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<!--<button class="btn common-btn">Hire Me</button> 
+				<button class="btn ghost-btn" <a href="Updated Resume.pdf" download="How-to-download-file.pdf"></a>My Resume</button> -->
+                <button class="btn ghost-btn" onclick="downloadResume()">My Resume</button>
+			</div> 
+		</div> 
+	</section> 
+
+	
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				Hello! I'm Neha Daryani, currently pursuing a Bachelor's degree in Computer Science and Engineering at SISTec GN, Bhopal. My journey in the tech world is driven by passion and enthusiasm, and I'm committed to becoming a proficient full stack developer.
+
+I am proud to lead two prestigious communities: Microsoft Learn Student Ambassadors (MLSA) at the national level and CSE-Dimensions at the departmental level in my college. These roles have honed my leadership and teamwork skills, and I'm honored to have received the Star Performer Award as a member of the Student Activity Council (SAC) at my college.
+			</p> 
+			<p> 
+				In my career path, I have equipped myself with essential skills in front-end technologies, MySQL, and programming languages such as C and Python. Currently, I'm diving deep into the MERN stack while working on an exciting project in Python.
+
+My strengths include a strong passion for my goals, reliability, and the ability to work effectively in teams. I believe in continuous learning and am always eager to take on new challenges.
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="neha.jpg" alt="About Image"> 
+		</div> 
+	</section> 
+    <!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Achievements</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement1.jpeg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Star Performer Award </h3> 
+						<p class="small-para blue-text">at Sagar Fiesta – 2023</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement2.png"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Certification of Python </h3> 
+						
+						<p class="small-para blue-text">by NPTEL</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement3.jpg" alt="SEO Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Selected as a Lead</h3> 
+						<p class="small-para blue-text">CSE Dimensions(2023-24)</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement4.png"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Selected as a Lead 
+						</h3> 
+						<p class="small-para blue-text">MLSA X SISTec</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement5.jpeg"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							PR committee coordinator 
+						</h3> 
+						<p class="small-para blue-text"> 
+							Student Activity Council(2022-23)
+ 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="achievement6.JPG"
+								alt="Video Editing Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Hosted Event 
+						</h3> 
+						<p class="small-para blue-text">on Git and Github</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+        
+	</section> 
+
+	<!-- Projects Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">My Projects</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-car"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> Car Rental System</h3> 
+						<p class="small-para"> 
+							Technology Used : C++
+						</p> 
+						<p class="small-para"> 
+                            Developed a user-friendly car renting system, showcasing proficiency in C++ programming language
+                            for a better user experience.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-address-book "></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Stationary Website 
+						</h3> 
+						<p class="small-para"> 
+							Technology Used : HTML,CSS and JavaScript 
+						</p> 
+						<p class="small-para"> 
+							Designed a visually engaging, user-friendly stationary website, demonstrating proficiency in front-end technologies.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-pizza-slice"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Restaurant Booking Website</h3> 
+						<p class="small-para"> 
+							Technology Used : HTML,CSS and JavaScript 
+						</p> 
+						<p class="small-para"> 
+							Developed a user-friendly car rental system, showcasing proficiency in C++ programming for an enhanced user experience. 
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa fa-calculator"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Student Result Calculator 
+						</h3> 
+						<p class="small-para"> 
+							Technology Used : HTML,CSS and JavaScript 
+						</p> 
+						<p class="small-para"> 
+							Developed a user-friendly student result calculator, demonstrating proficiency in programming for an enhanced user experience. 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa fa-bars"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							TO Do List 
+						</h3> 
+						<p class="small-para"> 
+                            Technology Used : Python
+						</p> 
+						<p class="small-para"> 
+							Developed a Python-based, user-friendly to-do list application, showcasing proficiency in programming for an enhanced user experience. 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-calendar-check"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Task Tracker 
+						</h3> 
+						<p class="small-para"> 
+                            Technology Used : HTML,CSS and JavaScript
+						</p> 
+						<p class="small-para"> 
+							Designed a task tracker using HTML, CSS, and JavaScript, demonstrating proficiency in front-end technologies for an optimized user experience. 
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL</h5> 
+					<p class="contact-text">Neha.Daryani@studentambassadors.com</p> 
+				</div> 
+				<!--<div class="details"> 
+					<h5 class="contact-heading">PHONE</h5> 
+					<p class="contact-text">+91 0123456789</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">FAX</h5> 
+					<p class="contact-text">+91 0123456789</p> 
+				</div>  -->
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">Bhopal </p> 
+					<p>Madhya Pradesh,India</p> 
+					 
+				</div>
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Crafted with passion by Neha Daryani ❤️ 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<!--<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> -->
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://github.com/nehadaryani"> 
+								<i class="fab fa-github"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.instagram.com/ms_neha_daryani?igsh=MWF2eGphODdlYXE5Yw=="> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.linkedin.com/in/neha-daryani-638a65238/"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
