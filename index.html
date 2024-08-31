@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Neha Daryani</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Achievements
+                          </a>
+                    </li>
+                    
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Projects
+                          </a>
+                    </li>
+                    
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading"><b>Hello, I'm</b></h3>
+                <h1 class="my-heading"><b>Neha Daryani</b></h1>
+                <h4 class="sub-heading"><b>
+                    As a dedicated frontend developer, I excel in creating
+dynamic web applications using React.js and modern
+web technologies. Explore my projects and insights to
+see how I blend creativity with technical expertise to
+deliver innovative digital solutions.</b>
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <!--<button class="btn common-btn">Hire Me</button>-->
+                <button class="btn ghost-btn" onclick="showResume()">My Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center"><u><b>My Achievements</u></b></h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-1.jpeg" 
+                                 alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Star Performer Award
+                            </h3>
+                        <p class="small-para blue-text">at Sagar Fiesta – 2023</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-2.png" 
+                                 alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            NPTEL Felicitation 2024
+                           
+                          </h3>
+                        <p class="small-para blue-text"> Completed course by Elite Batch</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-3.jpg" alt="SEO Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Selected as Community Lead
+                            </h3>
+                        <p class="small-para blue-text">CSE Dimension(Department Committee)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-4.png" 
+                                 alt="Content Writting Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Felicitation Ceremony
+                            
+                          </h3>
+                        <p class="small-para blue-text">Google CLoud Swags 2023</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-5.png" 
+                                 alt="Wordpress Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Selected as Community LEAD
+                           
+                          </h3>
+                        <p class="small-para blue-text">
+                            Microsoft Learn Student Ambassadors
+                          </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="portfolio-6.png" 
+                                 alt="Video Editing Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Session on Git & GitHub
+                            
+                          </h3>
+                        <p class="small-para blue-text">Organised under MLSA Team</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <!--<h1 class="my-heading">About Me</h1>-->
+            <p class="lead-para">
+                <h4><b>Hello! I'm Neha Daryani, a dedicated and passionate student pursuing a Bachelor's degree in Computer Science and Engineering at SISTec GN, Bhopal.</b></h4>
+                My journey in the tech industry is fueled by my ambition to excel as a full-stack developer. I have had the privilege of leading two esteemed communities: the Microsoft Learn Student Ambassadors (MLSA) at the national level and CSE-Dimensions at the departmental level in my college. These leadership roles have significantly enhanced my skills in leadership and teamwork, allowing me to foster innovation and collaboration within the tech community.
+                <br><br>
+                I have gained valuable industry experience through internships, including working as a Salesforce Developer at SmartInternz and completing an internship as a Frontend Web Developer at IBM. I am honored to have been recognized with the Star Performer Award as a member of the Student Activity Council (SAC) at my college. My commitment to continuous learning and growth drives me to contribute positively to the ever-evolving world of technology.
+
+            
+            </p>
+            <p>
+                <u><b>Technical Skills:</b></u><br><br>
+
+            1. <u> Programming Languages:</u> C, Python<br>
+            2. <u> Frontend Development:</u> HTML, CSS, JavaScript, React.js<br>
+            3. <u> Backend Development:</u> Node.js, Express.js<br>
+            4. <u> Databases:</u> MongoDB, SQL<br>
+            5. <u> Tools & Platforms:</u> Git, GitHub, Visual Studio Code, Salesforce<br>
+            6. <u> Soft Skills:</u> Leadership, Teamwork, Communication<br>
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="me.jpg" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">Projects</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Grocery Store Application</h3>
+                        <p class="small-para">
+                            Technology Used : Full Stack Development (Python) 
+
+                        </p>
+                        <p class="small-para">
+                            I am current working on this Grocery Store Application
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-cutlery"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            <a href="https://nehadaryani.github.io/Restaurant-Booking-Website/">Restaurant Booking Website</a></h3>
+                        <p class="small-para">
+                            Technology Used : HTML,CSS and JavaScript
+
+
+                        </p>
+                        <p class="small-para">
+                            Developed a user-friendly table booking website, demonstrating proficiency in web development technologies.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="far fa-calendar-check"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text"><a href="https://github.com/nehadaryani/ToDoList">To Do List</a></h3>
+                        <p class="small-para">
+                            Technology Used : Python and OOPS concepts
+
+
+                        </p>
+                        <p class="small-para">
+                            Developed a user-friendly to-do list app in Python, showcasing programming proficiency.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa fa-question"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              <a href="https://github.com/nehadaryani/Quiz-Website">Quiz Website</a>
+                          </h3>
+                        <p class="small-para">
+                            Technology Used : HTML,CSS and JavaScript
+                        </p>
+                        <p class="small-para">
+                            Developed a user-friendly Quiz website, showcasing web development skills.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            <a href="https://github.com/nehadaryani/Text-Speech-Converter" >Text to Speech Converter</a>
+                          </h3>
+                        <p class="small-para">
+                            Technology Used : HTML,CSS and JavaScript
+                        </p>
+                        <p class="small-para">
+                            Developed a text-to-speech converter, showcasing web development skills.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            
+                            <a href="https://github.com/nehadaryani/Student-Result-Calculator" >Student Result Calculator</a>
+                          </h3>
+                        <p class="small-para">
+                            Technology Used : HTML,CSS and JavaScript
+                        </p>
+                        <p class="small-para">
+                            Developed a student result calculator, showcasing web development skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch with me!!!</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                    </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <!--
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">example@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">San Francisco, CA</p>
+                    <p>4th Floor8 Lower</p>
+                    <p>San Francisco street, M1 50F</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Crafted with passion by Neha Daryani ❤️
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="mailto:Neha.Daryani@studentambassadors.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://github.com/nehadaryani">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.instagram.com/ms_neha_daryani?igsh=MWF2eGphODdlYXE5Yw%3D%3D">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.linkedin.com/in/neha-daryani-638a65238/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+    <script>
+        function showResume() {
+            
+            window.open('Resume.pdf', '_blank');
+        }
+    </script>
+</body>
+
+</html>
